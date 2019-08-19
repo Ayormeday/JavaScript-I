@@ -1,7 +1,8 @@
 // Let's get some practice writing a few objects for a new group of interns at a small business.
 
 // ==== Challenge 1: Writing Objects ==== 
-// HR needs some information on the new interns put into a database.  Given an id, email, first name, and gender. Create an object for each person in the company list:
+// HR needs some information on the new interns put into a database.  Given an id, email, first name, and gender. 
+// Create an object for each person in the company list:
 
 // 1, mmelloy0@psu.edu, Mitzi, F
 // 2, kdiben1@tinypic.com, Kennan, M
@@ -19,6 +20,40 @@ const example = {
 
 // Write your intern objects here:
 
+const newInternOne = {
+  id: 1,
+  firstName: Mitzi,
+  email: "mmelloy0@psu.edu",
+  gender: "F",
+};
+
+const newInternTwo = {
+  id: 2,
+  firstName: "Kennan",
+  email: "kdiben1@tinypic.com",
+  gender: "M"
+};
+
+const newInternThree = {
+  id: 3,
+  firstName: "Keven",
+  email: "kmummery2@wikimedia.org",
+  gender: "M"
+};
+
+const newInternFour = {
+  id: 4,
+  firstName: "Gannie",
+  email: "gmartinson3@illinois.edu",
+  gender: "M",
+};
+
+const newInternFive = {
+  id: 5,
+  firstName: "Antonietta",
+  email: "adaine5@samsung.com",
+  gender: "F",
+};
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
