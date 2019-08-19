@@ -22,7 +22,7 @@ const example = {
 
 const newInternOne = {
   id: 1,
-  firstName: Mitzi,
+  firstName: "Mitzi",
   email: "mmelloy0@psu.edu",
   gender: "F",
 };
@@ -59,15 +59,15 @@ const newInternFive = {
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
-
+console.log(newInternOne.firstName);
 // Kennan's ID
-
+console.log(newInternTwo.id);
 // Keven's email
-
+console.log(newInternThree.email);
 // Gannie's name
-
+console.log(newInternFour.firstName);
 // Antonietta's Gender
-
+console.log(newInternFive.gender);
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
