@@ -86,13 +86,20 @@ for (let i = 0; i < inventory.length; i++) {
 
 
 // ==== Challenge 2 ====
-// The dealer needs the information on the last car in their inventory.  What is the make and model of the last car in the inventory?  
+// The dealer needs the information on the last car in their inventory.  
+// What is the make and model of the last car in the inventory?  
 // Log the make and model into the console.
-let lastCar = 0;
-console.log();
+
+for (let i = 0; i < inventory.length; i++) {
+if (i===50){
+  console.log(`${invetory[i].car_make}  ${inventory[i].car_year}`)
+} else {
+  break;
+}};
 
 // ==== Challenge 3 ====
-// The marketing team wants the car models listed alphabetically on the website. Sort all the car model names into alphabetical order and log the results in the console
+// The marketing team wants the car models listed alphabetically on the website. 
+// Sort all the car model names into alphabetical order and log the results in the console
 let carModels = [];
 let carModelsSorted = [];
 console.log();
